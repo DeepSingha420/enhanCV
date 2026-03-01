@@ -1,0 +1,16 @@
+[project]
+name = "enhancv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "markdown-pdf>=1.13.1",
+    "openai>=2.24.0",
+    "pymupdf>=1.27.1",
+    "pymupdf-layout>=1.27.1",
+    "pymupdf4llm>=0.3.4",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+    "streamlit>=1.54.0",
+]
