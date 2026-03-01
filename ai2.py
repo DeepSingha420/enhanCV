@@ -2,7 +2,7 @@ from openai import OpenAI
 #from resume_reader import ResumeReader
 #import os
 from dotenv import load_dotenv
-from streamlit import st
+import streamlit as st
 
 #load_dotenv()
 
@@ -46,4 +46,5 @@ def enhance_cv(cv: str, target_role: str):
 
     evaluation = response2.choices[0].message.content
     return new_cv, evaluation
+
 
